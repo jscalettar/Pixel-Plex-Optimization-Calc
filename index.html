@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Pixel Plex Calc</title>
+	
+	<link rel="icon" type="image/png" href="img/pixel_plex_logo.png">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
+
+		<link rel="stylesheet" href="css/styles.css">
+
+	<!--[if IE]> <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	
+</head>
+
+<body>
+	<section>
+		
+		<div id="page_title" class="container">
+			<figure>
+				<img src="img/pixel_plex_header.png" width="100%"/>
+				<div class="centered">
+					<h1>PIXEL PLEX OPTIMIZATION CALCULATOR</h1>
+				</div>
+			</figure>
+		</div>
+		
+		<div id="main_text" class="center">
+			
+			<br>
+			<h2><font color=black>Select value:</font></h3>
+			
+			<span style="display:inline-block;"></span>
+			
+			<div class="calculator-box">
+			
+			    <label class="lead">Select your constructor level</label>
+				<!-- <input type="text" id="contractorLvl" class="form-control" placeholder="Constructor's level..."> -->
+				<select id="contractorLvl" name="form-contractor">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+				</select>
+			
+			    <button type="submit" id="submitButton"><i class="fa fa-calculator"></i>&nbsp;<b>Calculate</b></button>
+			
+			</div>
+			
+			<br>
+			<!--print results here:-->
+			<div id="calcResults"></div>
+			
+			<br> <br>
+						
+		</div>
+		
+	</section>
+
+	<script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+	<script src="js/main.js"></script>
+	
+</body>
+
+<footer>
+	<ul id="footer">
+	<li><a href="https://pixelplexgame.com/" target="_blank"><img src="img/pixel_plex_icon.png" alt="Pixel Plex Site" width="42px" height="42px"/></a></li>
+	</ul>
+</footer>
+
+</html>
